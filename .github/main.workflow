@@ -1,16 +1,10 @@
-workflow "Main Workflow" {
+workflow "Build and Deploy" {
   on = "push"
-  resolves = ["Deploy to gh-pages Branch"]
-}
-
-action "Filter master Branch" {
-  uses = "actions/bin/filter@master"
-  args = "branch master"
+  resolves = ["Run Frontend Tests", "Deploy to gh-pages Branch"]
 }
 
 action "Install Dependencies" {
   uses = "actions/npm@master"
-  needs = ["Filter master Branch"]
   args = "install"
 }
 
@@ -26,9 +20,15 @@ action "Run Frontend Tests" {
   args = "run test"
 }
 
+action "Filter master Branch" {
+  uses = "actions/bin/filter@master"
+  needs = ["Run Frontend Tests"]
+  args = "branch master"
+}
+
 action "Generate Site Using Nuxt" {
   uses = "actions/npm@master"
-  needs = ["Run Frontend Tests"]
+  needs = ["Filter master Branch"]
   args = "run generate"
 }
 
