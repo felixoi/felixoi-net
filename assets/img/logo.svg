@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 226.87101 84.514002"
+   enable-background="new 0 0 283.46 283.46"
+   xml:space="preserve"
+   id="svg12"
+   sodipodi:docname="text.svg"
+   width="226.871"
+   height="84.514"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"><metadata
+   id="metadata18"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs16" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1006"
+   id="namedview14"
+   showgrid="false"
+   inkscape:zoom="0.83256899"
+   inkscape:cx="111.435"
+   inkscape:cy="44.122004"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg12" />
+<polygon
+   points="104.161,138.315 90.332,124.486 79.793,124.486 98.891,143.584 56.637,185.839 67.088,185.837 104.137,148.83 141.146,185.839 151.683,185.839 109.409,143.564 151.683,101.338 141.138,101.338 "
+   id="polygon2"
+   style="fill:#113758"
+   transform="translate(-30.295,-101.338)" />
+<polygon
+   points="37.747,108.789 105.867,108.789 113.319,101.338 30.295,101.338 30.295,185.831 37.747,178.379 37.747,147.311 67.345,147.311 74.797,139.859 37.747,139.859 "
+   id="polygon4"
+   style="fill:#113758"
+   transform="translate(-30.295,-101.338)" />
+<polygon
+   points="232.186,129.169 246.626,143.605 204.372,185.845 214.917,185.852 257.165,143.611 257.165,143.611 257.166,143.611 242.726,129.169 "
+   id="polygon6"
+   style="fill:#113758"
+   transform="translate(-30.295,-101.338)" />
+<polygon
+   points="204.372,101.365 218.811,115.799 229.357,115.799 214.917,101.358 "
+   id="polygon8"
+   style="fill:#113758"
+   transform="translate(-30.295,-101.338)" />
+<path
+   d="m 189.979,42.275 -42.247,-42.281 -42.249,42.27 42.249,42.241 v 0.009 z m -73.96,-0.021 31.714,-31.71 v 0.029 L 179.44,42.27 147.733,73.967 v -0.009 z"
+   id="path10"
+   inkscape:connector-curvature="0"
+   style="fill:#113758" />
+</svg>

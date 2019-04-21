@@ -3,9 +3,6 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
 
-  /*
-   ** Headers of the page
-   */
   head: {
     title: pkg.name,
     meta: [
@@ -16,44 +13,21 @@ module.exports = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
-  /*
-   ** Customize the progress-bar color
-   */
   loading: { color: '#fff' },
 
-  /*
-   ** Global CSS
-   */
-  css: [],
+  css: ['~/assets/scss/main.scss'],
 
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: [],
 
-  /*
-   ** Nuxt.js modules
-   */
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
-  ],
-  /*
-   ** Axios module configuration
-   */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+  modules: ['@nuxtjs/axios', 'bootstrap-vue/nuxt'],
+  axios: {},
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
   },
 
-  /*
-   ** Build configuration
-   */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
+    extractCSS: true,
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
