@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+
+.navbar#layout-nav {
+  padding: 1rem 2rem;
+
+  img {
+    height: 40px;
+  }
+}
