@@ -1,0 +1,15 @@
+$border-radius: 0;
+
+// Colors
+$red: #d04341;
+$green: #389151;
+$yellow: #f3c920;
+$cyan: #00bcc9;
+
+// Buttons
+$input-btn-focus-box-shadow: none;
+$input-btn-focus-width: 0;
+
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+@import "buttons";

@@ -15,7 +15,7 @@ module.exports = {
 
   loading: { color: '#fff' },
 
-  css: ['~/assets/scss/main.scss'],
+  css: ['~assets/scss/main.scss'],
 
   plugins: [],
 

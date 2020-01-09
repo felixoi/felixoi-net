@@ -1,0 +1,3 @@
+.btn-sponge {
+  @include button-variant($sponge_yellow, $sponge_dark_yellow);
+}
