@@ -1,4 +1,4 @@
-name: Node CI
+name: Build and Deploy
 
 on: [push]
 
@@ -32,5 +32,5 @@ jobs:
       if: github.ref == 'master'
       uses: maxheld83/ghpages@v0.2.1
       env:
-        GH_PAT: ${{ GH_PAT }}
+        GH_PAT: ${{ secrets.GH_PAT }}
         BUILD_DIR: 'dist/'
