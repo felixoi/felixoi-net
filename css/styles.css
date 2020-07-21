@@ -10124,6 +10124,9 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.name {
+  font-size: 4rem;
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
