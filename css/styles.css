@@ -10124,12 +10124,18 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-.name {
+h1.name {
   font-size: 4rem;
+}
+.name .text-firstname {
+  display: block;
 }
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+  h1.name {
+    font-size: 6rem;
   }
 }
 @media (min-width: 992px) {
