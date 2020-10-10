@@ -1,3 +1,2 @@
-# felixoi-net
+# felixoi-com
 
-This is my personal website.
